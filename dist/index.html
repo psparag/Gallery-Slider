@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom-style.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="bg-white overflow-x-hidden">
+    <div class="cursor w-20 fixed z-50 pointer-events-none">
+      <img src="assets/arrow_left.svg" alt="" />
+    </div>
+
+    <!-- gallery -->
+    <div class="gallery-container w-screen pl-24 py-24 relative overflow-x-hidden">
+      <!-- item 1 -->
+      <div class="movable-gallery-container ml-24 relative z-10 border-gray-400">
+        <div class="movable-gallery-item relative">
+          <div class="movable-gallery-number text-5xl z-10 pointer-events-none">
+            01
+          </div>
+          <div class="movable-gallery-image-container mt-2">
+            <div class="movable-gallery-image bg-gray-500 ml-24 overflow-hidden">
+              <img src="assets/img/1.jpg" alt="" class="h-full w-full object-cover" />
+            </div>
+            <div class="movable-gallery-project-title text-6xl pointer-events-none absolute leading-none">
+              <div class="movable-gallery-project-title-split uppercase">
+                <p>Kusum</p>
+                <p>Sarovar</p>
+                <p>Gates</p>
+              </div>
+            </div>
+          </div>
+          <div class="movable-gallery-project-detail z-10 mt-6">
+            <div class="movable-gallery-project-detail-line border border-gray-900 pointer-events-none"></div>
+            <p>Kusum Sarovar Gates / March 2019</p>
+          </div>
+        </div>
+
+        <!-- item 2 -->
+        <div class="movable-gallery-item relative">
+          <div class="movable-gallery-number text-5xl z-10 pointer-events-none ">
+            02
+          </div>
+          <div class="movable-gallery-image-container mt-2">
+            <div class="movable-gallery-image bg-gray-500 ml-24 overflow-hidden">
+              <img src="assets/img/2.jpg" alt="" class="h-full w-full object-cover" />
+            </div>
+            <div class="movable-gallery-project-title text-6xl absolute leading-none pointer-events-none">
+              <div class="movable-gallery-project-title-split uppercase">
+                <p>Kusum</p>
+                <p>Sarovar</p>
+                <p>Gates</p>
+              </div>
+            </div>
+          </div>
+          <div class="movable-gallery-project-detail z-10 mt-6">
+            <div class="movable-gallery-project-detail-line border border-gray-900 pointer-events-none"></div>
+            <p>Kusum Sarovar Gates / March 2019</p>
+          </div>
+        </div>
+
+        <!-- item 3 -->
+        <div class="movable-gallery-item relative">
+          <div class="movable-gallery-number text-5xl z-10 pointer-events-none">
+            03
+          </div>
+          <div class="movable-gallery-image-container mt-2">
+            <div class="movable-gallery-image bg-gray-500 ml-24 overflow-hidden">
+              <img src="assets/img/3.jpg" alt="" class="h-full w-full object-cover" />
+            </div>
+            <div class="movable-gallery-project-title text-6xl absolute leading-none pointer-events-none">
+              <div class="movable-gallery-project-title-split uppercase">
+                <p>Kusum</p>
+                <p>Sarovar</p>
+                <p>Gates</p>
+              </div>
+            </div>
+          </div>
+          <div class="movable-gallery-project-detail z-10 mt-6">
+            <div class="movable-gallery-project-detail-line border border-gray-900 pointer-events-none"></div>
+            <p>Kusum Sarovar Gates / March 2019</p>
+          </div>
+        </div>
+
+        <!-- item 4 -->
+        <div class="movable-gallery-item relative">
+          <div class="movable-gallery-number text-5xl z-10 pointer-events-none">
+            04
+          </div>
+          <div class="movable-gallery-image-container mt-2">
+            <div class="movable-gallery-image bg-gray-500 ml-24 overflow-hidden">
+              <img src="assets/img/4.jpg" alt="" class="h-full w-full object-cover" />
+            </div>
+            <div class="movable-gallery-project-title text-6xl absolute leading-none pointer-events-none">
+              <div class="movable-gallery-project-title-split uppercase">
+                <p>Kusum</p>
+                <p>Sarovar</p>
+                <p>Gates</p>
+              </div>
+            </div>
+          </div>
+          <div class="movable-gallery-project-detail z-10 mt-6">
+            <div class="movable-gallery-project-detail-line border border-gray-900 pointer-events-none"></div>
+            <p>Kusum Sarovar Gates / March 2019</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-scroll-bar"></div>
+
+      <div class="mouseareas absolute top-0 bottom-0 z-0 h-full w-full left-0">
+        <div class="mouseareas-left bg-white"></div>
+        <div class="mouseareas-right bg-white"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/ScrollToPlugin.min.js"></script>
+    <script src="mousemove.js"></script>
+  </body>
+</html>

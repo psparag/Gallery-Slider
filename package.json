@@ -1,0 +1,14 @@
+{
+	"name": "ild-website",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build:css": "build src/style.css -o dist/style.css"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"tailwindcss": "^1.2.0"
+	}
+}
